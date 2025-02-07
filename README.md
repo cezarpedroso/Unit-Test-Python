@@ -1,7 +1,7 @@
 # Unit Testing for Exact Change Calculator
 
 ## Overview
-This project primarily focuses on unit testing the `exact_change` function, which calculates the exact change needed for a given amount in cents. The implementation determines the number of quarters, dimes, nickels, and pennies required to make up the total. 
+This project primarily focuses on unit testing the `exact_change` function, which takes an amount in cents and figures out the right mix of quarters, dimes, nickels, and pennies to make up that total. The main focus here is testing that logic to ensure it's reliable. 
 
 ## Unit Testing
 ### Running the Unit Tests
@@ -23,9 +23,9 @@ The script contains the following test cases:
 These unit tests validate that the `exact_change` function handles a variety of edge cases, ensuring robustness.
 
 ## Features
-- Implements `unittest` module for automated testing.
-- Covers edge cases such as zero and negative values.
-- Ensures accurate computation of change.
+- Uses `unittest` module for automated testing.
+- Covers edge cases like zero and negative values.
+- Ensures accurate calculation of change.
 
 ## Usage
 To execute the script (apart from testing), run the following command:
@@ -55,5 +55,5 @@ no change
 This project is open-source and available under the MIT License.
 
 ## Author
-[Your Name]
+Cezar Pedroso
 
